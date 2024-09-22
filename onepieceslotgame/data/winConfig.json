@@ -1,0 +1,11 @@
+{
+    "combinations": {
+        "reel1-reel1-reel1": 100,
+        "reel2-reel2-reel2": 200,
+        "reel3-reel3-reel3": 300,
+        "reel4-reel4-reel4": 400,
+        "reel5-reel5-reel5": 500,
+        "reel6-reel6-reel6": 600,
+        "reel7-reel7-reel7": 700
+    }
+}

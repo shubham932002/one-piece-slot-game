@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Slot Game</title>
+    <script src="https://cdn.jsdelivr.net/npm/phaser@3.55.2/dist/phaser.js"></script> <!-- Phaser 3 -->
+    <script src="scenes/LoadingScene.js"></script>
+    <script src="scenes/GameStartScene.js"></script>
+    <script src="scenes/BaseGameScene.js"></script>
+
+</head>
+<body>
+    <script>
+        const config = {
+            type: Phaser.AUTO,
+            width: 1520,
+            height: 709,
+            scene: [LoadingScene, GameStartScene, BaseGameScene]  // LoadingScene must come first
+        };
+    
+        const game = new Phaser.Game(config);
+    </script>
+    
+</body>
+</html>
